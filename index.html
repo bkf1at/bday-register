@@ -185,6 +185,51 @@
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
+
+      <section id="clients">
+        <div class="contain" data-aos="zoom-in">
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="assets/img/team/kobby.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby1.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby2.jpeg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby3.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby4.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby5.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby6.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby7.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby8.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby9.jpg" class="img-fluid" alt="nile"></div>
+              <div class="swiper-slide"><img src="assets/img/team/kobby10.jpg" class="img-fluid" alt="nile"></div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="text-center">
+            <h3>RSVP HERE</h3>
+            <p><q>Life should not only be lived, it should be celebrated.</q></p>
+            <p>This is a packaged birthday celebration with
+              about 5 destinations in mind. Ready to have a good time and
+              join the Nile birthday train? Please RSVP by May 7th 2024.</p>
+            <form>
+              <label>First Name :</label>
+              <input type="text" id="fName">
+              <label>Last Name :</label>
+              <input type="text" id="lName">
+              <!-- set button onClick method to call function we defined passing input values as parameters -->
+              <button type="button" class="aws-btn"
+                onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Book
+                Now</button>
+            </form>
+          </div>
+        </div>
+      </section><!-- End Cta Section -->
+
       <!-- ======= Clients Section ======= -->
       <section id="clients" class="clients">
         <div class="container" data-aos="zoom-in">
@@ -210,30 +255,6 @@
           </div>
         </div>
       </section><!-- End Clients Section -->
-
-      <!-- ======= Cta Section ======= -->
-      <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
-          <div class="text-center">
-            <h3>RSVP HERE</h3>
-            <p><q>Life should not only be lived, it should be celebrated.</q></p>
-            <p>This is a packaged birthday celebration with
-              about 5 destinations in mind. Ready to have a good time and
-              join the Nile birthday train? Please RSVP by May 7th 2024.</p>
-            <form>
-              <label>First Name :</label>
-              <input type="text" id="fName">
-              <label>Last Name :</label>
-              <input type="text" id="lName">
-              <!-- set button onClick method to call function we defined passing input values as parameters -->
-              <button type="button" class="aws-btn"
-                onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Book
-                Now</button>
-            </form>
-          </div>
-
-        </div>
-      </section><!-- End Cta Section -->
 
     </section><!-- End About Section -->
 
@@ -373,7 +394,6 @@
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/team/daddy.jpg" class="img-fluid" alt="daddy">
-
               </div>
               <div class="member-info">
                 <h4>Adusei Asomah</h4>
@@ -386,7 +406,6 @@
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
                 <img src="assets/img/team/mommy.jpg" class="img-fluid" alt="mommy">
-
               </div>
               <div class="member-info">
                 <h4>Barbara K Kuffuor</h4>
@@ -399,7 +418,6 @@
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
                 <img src="assets/img/team/nile.jpg" class="img-fluid" alt="nile">
-
               </div>
               <div class="member-info">
                 <h4>Nile Adusei</h4>
@@ -433,7 +451,7 @@
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/ny.jpg" class="img-fluid" alt="nana yaw">
+                <img src="assets/img/team/ny.jpeg" class="img-fluid" alt="nana yaw">
               </div>
               <div class="member-info">
                 <h4>Felix Agyemang</h4>
@@ -445,10 +463,10 @@
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/team/kwabs.jpg" class="img-fluid" alt="kwabena">
+                <img src="assets/img/team/kwabs.jpeg" class="img-fluid" alt="kwabena">
               </div>
               <div class="member-info">
-                <h4>Ferdinand Agyemang</h4>
+                <h4>Ferdinand Agyem.</h4>
                 <span>Cousin</span>
               </div>
             </div>
